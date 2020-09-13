@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(Black, #5FA9A9, #74DEDE, #BAF7F7, #ECFFFF);
+}
+
 header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
@@ -6,23 +10,29 @@ header {
 }
 
 nav {
-    font-size: 100%;
+    padding: 2%;
 }
 
 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
 }
 
 a:hover {
-    background-color: blue;
+    background-color: black;
+    color: white;
 }
 
 a:active {
-    background-color: springgreen;
+    background-color: teal;
+    color: sienna;
 }
 
 ul li {
-    display: inline-block;
+    display: inline;
 }
 
 img {
@@ -30,9 +40,9 @@ img {
 }
 
 footer {
-    height: 45%;
+    padding: 3%;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Ranchers', cursive;
 }
 
 .footer {
@@ -41,4 +51,5 @@ footer {
 
 section {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 190%;
 }
