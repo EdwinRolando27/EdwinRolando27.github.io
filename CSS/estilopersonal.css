@@ -1,0 +1,44 @@
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: snow;
+}
+
+nav {
+    font-size: 100%;
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:active {
+    background-color: springgreen;
+}
+
+ul li {
+    display: inline-block;
+}
+
+img {
+    width: 30%;
+}
+
+footer {
+    height: 45%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer {
+    width: 50px;
+}
+
+section {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
