@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0% 15% 0 15%;
+    font-family: serif;
+}
+
+header {
+    width: 80%;
+    font-style: italic;
+}
+
+nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 250px;
+}
+
+.pres {
+    position: relative;
+    left: 90%;
+}
+
+.refe {
+    text-align: justify;
+}
+
+header span {
+    font-weight: bold;
+}
+
+header .line {
+    display: block;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+section {
+    text-align: justify;
+}
+
+.exotic span {
+    display: block;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.foo span {
+    font-style: italic;
+    font-weight: bold;
+}
