@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Informacion personal</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bulma/css/bulma.css">
     <link rel="shortcut icon" href="../img/logo.png">
 </head>
 
@@ -33,134 +34,171 @@
             </li>
         </ul>
     </div>
-    <header>
+    <div class="container">
+        <header class="row">
+            <div class="col col-auto">
+                <nav class="navbar is-primary" role="navigation">
+                    <div class="navbar-menu cabecera">
+                        <div class="navbar-brand">
+                            <div class="navbar-item">
+                                <a href="#">Menú</a>
+                            </div>
+                        </div>
+                        <div class="navbar-end">
+                            <div class="navbar-item">
+                                <a href="../index.html" class="icon-home">Pagina Principal</a>
+                            </div>
+                            <div class="navbar-item">
+                                <a href="../html/home.html" class="icon-books">Home</a>
+                            </div>
+                            <div class="navbar-item">
+                                <a href="../html/about.html" class="icon-profile">About</a>
+                            </div>
+                            <div class="navbar-item">
+                                <a href="../html/contact.html" class="icon-user">Contact</a>
+                            </div>
+                            <div class="navbar-item">
+                                <a href="../html/carta05.html" class="icon-file-text">Carta</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <img src="../img/PedroRuiz-Amazonas.jpg" id="arriba" title="Edwin Rolando Bustamante Ruiz" width="200px">
+                <h1>Informacion de Edwin Rolando Bustamante Ruiz:</h1>
+            </div>
+        </header>
         <nav>
-            <a href="../index.html" class="icon-home">Pagina Principal</a>
-            <a href="../html/home.html" class="icon-books">Home</a>
-            <a href="../html/about.html" class="icon-profile">About</a>
-            <a href="../html/contact.html" class="icon-user">Contact</a>
-            <a href="../html/carta05.html" class="icon-file-text">Carta</a>
+            <ul class="interno">
+                <li>
+                    <a href="#viaje">Viajes</a></li>
+                <li>
+                    <a href="#pasatiempo">Pasatiempos</a></li>
+                <li>
+                    <a href="#comidas">Comida favoritas</a></li>
+
+            </ul>
         </nav>
-        <img src="../img/PedroRuiz-Amazonas.jpg" title="Edwin Rolando Bustamante Ruiz" width="200px">
-        <h1 id="arriba">Informacion de Edwin Rolando Bustamante Ruiz:</h1>
-    </header>
-    <ul>
-        <li>
-            <a href="#viaje">Viajes</a></li>
-        <li>
-            <a href="#pasatiempo">Pasatiempos</a></li>
-        <li>
-            <a href="#comidas">Comida favoritas</a></li>
 
-    </ul>
-    <section>
-
-        <h2 id="viaje">Viajes</h2>
-        <p>Soy una persona que le gusta mucho viajar, a lo largo de mi vida e llegado a conocer 15 regiones del Perú, tambíen e llegado a estar en Bolivia y Chile, aún no e tenido la oportunidad de tener muchos viajes internacionales pero espero que mediante
-            cumpla mis objetivos profesionales pueda permitirme viajar. </p>
-
-        <div class="container">
-
-            <div class="row mt-5">
-                <div class="col">
-
-                    <h2>Fotos de algunos viajes:</h2>
-
-                    <div class="carousel slide" id="miSlider" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#miSlider" data-slide-to="0" class="active"></li>
-                            <li data-target="#miSlider" data-slide-to="1"></li>
-                            <li data-target="#miSlider" data-slide-to="2"></li>
-                            <li data-target="#miSlider" data-slide-to="3"></li>
-                        </ol>
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="../img/jaen (2).jpg" height="700px" title="Jaén">
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../img/Jaen.jpg" height="700px" title="Jaén">
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../img/kuelap.jpg" height="700px" title="Kuelap">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../img/Gocta.jpg" height="700px" title="Gocta">
-                            </div>
+        <section>
+            <section class="row viaje">
+                <div class="col-md col-lg-12 viajes">
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <h2 id="viaje">Viajes</h2>
+                            <p>Soy una persona que le gusta mucho viajar, a lo largo de mi vida e llegado a conocer 15 regiones del Perú, tambíen e llegado a estar en Bolivia y Chile, aún no e tenido la oportunidad de tener muchos viajes internacionales
+                                pero espero que mediante cumpla mis objetivos profesionales pueda permitirme viajar. </p>
+                            <a href="#arriba">Volver arriba</a>
                         </div>
 
-                        <a href="#miSlider" class="carousel-control-prev" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
+                        <div class="col">
+                            <div class="row ">
+                                <div class="col">
+                                    <h2>Fotos de algunos viajes:</h2>
+                                    <div class="carousel slide" id="miSlider" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#miSlider" data-slide-to="0" class="active"></li>
+                                            <li data-target="#miSlider" data-slide-to="1"></li>
+                                            <li data-target="#miSlider" data-slide-to="2"></li>
+                                            <li data-target="#miSlider" data-slide-to="3"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="../img/jaen (2).jpg" height="700px" title="Jaén">
+                                            </div>
 
-                        <a href="#miSlider" class="carousel-control-next" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="../img/Jaen.jpg" height="700px" title="Jaén">
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="../img/kuelap.jpg" height="700px" title="Kuelap">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="../img/Gocta.jpg" height="700px" title="Gocta">
+                                            </div>
+                                        </div>
+
+                                        <a href="#miSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Anterior</span>
+                                        </a>
+
+                                        <a href="#miSlider" class="carousel-control-next" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Siguiente</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
-            </div>
-
-        </div>
-        <br><a href="#arriba">Volver arriba</a>
-        <h2 id="pasatiempo">Pasatiempos</h2>
-        <p>Mis pasatiempos favoritos son escuchar música y hacer música, toco varios instrumentos como son guitarra, charango, ukulele, armonica, saxo. </p>
-        <p>Tambíen me gusta ver peliculas, no tengo un genero cinematografico preferido, me gusta ver partidos de futbol y tambíen practico diferentes lenguajes de programación</p>
-        <br><a href="#arriba">Volver arriba</a>
-        <h2 id="comidas">Comidas favoritas</h2>
-        <p>Soy una persona que come de todo, disfruto de la comida en general pero si hablamos de lo que más me gusta podria decir que mis platillos favoritos son 3: Ceviche, papa a la huancaina y cuy con papa. </p>
-        <div class="container">
-
-            <div class="row mt-5">
-                <div class="col">
-
-                    <h2>Fotos referenciales de comida</h2>
-
-                    <div class="carousel slide" id="miSlider2" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#miSlider2" data-slide-to="0" class="active"></li>
-                            <li data-target="#miSlider2" data-slide-to="1"></li>
-                            <li data-target="#miSlider2" data-slide-to="2"></li>
-                        </ol>
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="../img/ceviche.jpg" height="450px">
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../img/phuancaina.jpg" height="450px"><br>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../img/cuypapa.jpg" height="450px"><br>
-                            </div>
+            </section>
+            <h2 id="pasatiempo">Pasatiempos</h2>
+            <p>Mis pasatiempos favoritos son escuchar música y hacer música, toco varios instrumentos como son guitarra, charango, ukulele, armonica, saxo. </p>
+            <p>Tambíen me gusta ver peliculas, no tengo un genero cinematografico preferido, me gusta ver partidos de futbol y tambíen practico diferentes lenguajes de programación</p>
+            <br><a href="#arriba">Volver arriba</a>
+            <section class="row comida">
+                <div class="col-md col-lg-12 comida">
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <h2 id="comidas">Comidas favoritas</h2>
+                            <p>Soy una persona que come de todo, disfruto de la comida en general pero si hablamos de lo que más me gusta podria decir que mis platillos favoritos son 3: Ceviche, papa a la huancaina y cuy con papa. </p>
+                            <a href="#arriba">Volver arriba</a>
                         </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
 
-                        <a href="#miSlider" class="carousel-control-prev" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
+                                    <h2>Fotos referenciales de comida</h2>
 
-                        <a href="#miSlider2" class="carousel-control-next" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
+                                    <div class="carousel slide" id="miSlider2" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#miSlider2" data-slide-to="0" class="active"></li>
+                                            <li data-target="#miSlider2" data-slide-to="1"></li>
+                                            <li data-target="#miSlider2" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="../img/ceviche.jpg" height="450px">
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="../img/phuancaina.jpg" height="450px">
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="../img/cuypapa.jpg" height="450px">
+                                            </div>
+                                        </div>
+
+                                        <a href="#miSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Anterior</span>
+                                        </a>
+
+                                        <a href="#miSlider2" class="carousel-control-next" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Siguiente</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-
                 </div>
-            </div>
-
-        </div>
-        <br><a href="#arriba">Volver arriba</a>
-    </section>
-    <footer>
-        <p>Si quieres ponerte en contacto conmigo pulsa <a href="../html/contact.html">Contact</a></p>
-    </footer>
+            </section>
+        </section>
+        <footer>
+            <p>Si quieres ponerte en contacto conmigo pulsa <a href="../html/contact.html">Contact</a></p>
+        </footer>
+    </div>
     <script src="../bootstrap/js/jquery.js"></script>
     <script src="../bootstrap/js/popper.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
