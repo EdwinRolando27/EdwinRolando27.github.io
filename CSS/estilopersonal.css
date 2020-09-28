@@ -1,9 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(Black, #5FA9A9, #74DEDE, #BAF7F7, #ECFFFF);
 }
 
 header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     color: snow;
@@ -58,4 +64,51 @@ footer {
 section {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 190%;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-instagram {
+    background: #d95232;
+}
+
+.social ul li .icon-linkedin {
+    background: #17CF83;
+}
+
+.social ul li .icon-mail2 {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    background: rgb(61, 76, 85);
+    padding: 10px 30px;
 }
