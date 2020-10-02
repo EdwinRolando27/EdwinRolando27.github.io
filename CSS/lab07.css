@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+#extraer {
+    background-color: #AD9621;
+    color: white;
+}
+
+#colorear {
+    background-color: #CF7617;
+    color: white;
+}
+
+#fa {
+    background-color: #1797CF;
+    border: 1px solid black;
+    align-self: stretch;
+}
+
+#fr {
+    background-color: #CF7617;
+    border: 1px solid black;
+}
+
+#sep {
+    height: 25px;
+}
+
+#botones {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+table {
+    background-color: #E7F7F5;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+input {
+    width: 80%;
+}
