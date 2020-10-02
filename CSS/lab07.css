@@ -55,9 +55,9 @@ table tr td {
 table {
     background-color: #E7F7F5;
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
 }
 
 input {
-    width: 80%;
+    width: 100%;
 }
