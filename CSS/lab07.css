@@ -27,13 +27,13 @@ nav a:hover {
     color: white;
 }
 
-#fa {
+.fa {
     background-color: #1797CF;
     border: 1px solid black;
     align-self: stretch;
 }
 
-#fr {
+.fr {
     background-color: #CF7617;
     border: 1px solid black;
 }
