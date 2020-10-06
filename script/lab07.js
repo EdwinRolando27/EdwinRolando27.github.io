@@ -52,9 +52,9 @@ function extraerClick() {
 function apellidos() {
     let c = 0;
     let extraer;
-    let apellidop;
-    let apellidom;
-    let nombres;
+    let apellidop = "";
+    let apellidom = "";
+    let nombres = "";
     let n = document.getElementById("nombre").value;
     let cNombre = new String(n);
     let car;
@@ -69,23 +69,23 @@ function apellidos() {
         alert("ingrese al menos un Apellido y un Nombre");
     } else {
         if (c <= 3) {
-            if (c = 1) {
-                extraer = cNombre.split(' ')
+            extraer = cNombre.split(' ');
+            if (c == 1) {
                 apellidop = extraer[0];
                 nombres = extraer[1];
             }
-            if (c = 2) {
+            if (c == 2) {
                 apellidop = extraer[0];
                 apellidom = extraer[1];
                 nombres = extraer[2];
             }
-            if (c = 3) {
+            if (c == 3) {
                 apellidop = extraer[0];
                 apellidom = extraer[1];
                 nombres = extraer[2] + " " + extraer[3];
             }
         } else {
-            alert("Ingrese solo 2 nombres");
+            alert("Ingrese solo 2 apellidos y 2 nombres");
         }
         let longitud = new String(apellidop + apellidom);
         document.getElementById("lApellido").value = longitud.length;
