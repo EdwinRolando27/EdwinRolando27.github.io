@@ -32,17 +32,61 @@ nav a:hover {
 }
 
 .cabecera img {
-    width: 300px;
+    width: 250px;
 }
 
 .noticias {
+    border: 1px solid rgb(230, 92, 28);
+    border-color: rgb(230, 92, 28);
     max-width: 270px;
     margin-bottom: 25px;
-    text-align: center;
     margin: 20px;
     padding: 10px;
 }
 
 .imgb {
     width: 25px !important;
+}
+
+.inmobiliario span {
+    color: #D54E18;
+    font-weight: bold;
+}
+
+.talentoCultura span {
+    color: #D5A718;
+    font-weight: bold;
+}
+
+.legalPolitico span {
+    color: #B818D5;
+    font-weight: bold;
+}
+
+.inmobiliario button {
+    background-color: #D54E18;
+    color: white;
+    font-weight: bold;
+}
+
+.talentoCultura button {
+    background-color: #D5A718;
+    color: white;
+    font-weight: bold;
+}
+
+.legalPolitico button {
+    background-color: #B818D5;
+    color: white;
+    font-weight: bold;
+}
+
+.foot {
+    position: relative;
+    text-align: right;
+}
+
+.imgbu {
+    position: relative;
+    right: 0px;
 }
