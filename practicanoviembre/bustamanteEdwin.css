@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #76878C
+}
+
+h3 {
+    color: black;
 }
 
 nav {
@@ -24,7 +29,6 @@ nav a:hover {
 
 .contenedor {
     border: 1px solid rgb(230, 92, 28);
-    border-color: rgb(230, 92, 28);
     margin: 30px;
     display: flex;
     flex-direction: row;
@@ -36,16 +40,16 @@ nav a:hover {
 }
 
 .noticias {
-    border: 1px solid rgb(230, 92, 28);
-    border-color: rgb(230, 92, 28);
-    max-width: 270px;
+    border-right: 1px solid rgb(230, 92, 28);
+    border-left: 1px solid rgb(230, 92, 28);
+    max-width: 280px;
     margin-bottom: 25px;
     margin: 20px;
     padding: 10px;
 }
 
 .imgb {
-    width: 25px !important;
+    width: 30px !important;
 }
 
 .inmobiliario span {
@@ -89,4 +93,23 @@ nav a:hover {
 .imgbu {
     position: relative;
     right: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: flex;
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bustamanteEdwin.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <title>Practica Noviembre</title>
 </head>
 
@@ -21,63 +22,139 @@
         <div class="noticias inmobiliario">
             <div class="cabecera">
                 <p>Desde <span> Sectores y empresas</span></p>
-                <button id="b1">Inmobiliario</button>
-                <img class="imgb" id="img1" src="img/imgboton.png">
+                <div class="nav">
+                    <div class="bt">
+                        <button id="b1">Inmobiliario</button>
+                    </div>
+                    <div class="im">
+                        <img class="imgb" id="img1" src="img/imgboton.png">
+                    </div>
+                </div>
+
                 <img src="img/inmobiliario.jpg">
             </div>
             <div class="text-noticas">
                 <h3>Vivienda residencial:<br>Avanzan la ventas, pero todavia no el precio </h3>
                 <p>El segmento de sus primeras señales de recuperacion aunque el valor del metro cuadrado en Lima Top seguiria bajo por algunos meses más</p>
-                <div>
-
+                <div class="pie">
+                    <p class="foot" id="f1">Lectura de 3min</p>
                 </div>
-                <p class="foot" id="f1">Lectura de 3min</p>
+
             </div>
         </div>
         <div class="noticias talentoCultura">
             <div class="cabecera">
                 <p>Desde <span> Manegment</span></p>
-                <button id="b2">Talento y cultura</button>
-                <img class="imgb" src="img/imgboton.png">
+
+                <div class="nav">
+                    <div class="bt">
+                        <button id="b2">Talento y cultura</button>
+                    </div>
+                    <div class="im">
+                        <img class="imgb" id="img2" src="img/imgboton.png">
+                    </div>
+                </div>
                 <img src="img/talento y cultura.jpg">
             </div>
             <div class="text-noticas">
                 <h3>El nuevo CEO de Delosi y otras movidas empresariales</h3>
                 <p>Kia Perú, EY Perú y DLA Piper Perú tambien realizaron nuevos nombramientos</p>
-                <p class="foot" id="f2">Lectura de 2min</p>
+                <div class="pie">
+                    <p class="foot" id="f2">Lectura de 2min</p>
+                </div>
                 <p id="fecha"></p>
             </div>
         </div>
         <div class="noticias legalPolitico">
             <div class="cabecera">
                 <p>Desde <span> legal y politico</span></p>
-                <button id="b3">Politica</button>
-                <img class="imgb" src="img/imgboton.png">
+                <div class="nav">
+                    <div class="bt">
+                        <button id="b3">Politica</button>
+                    </div>
+                    <div class="im">
+                        <img class="imgb" id="img3" src="img/imgboton.png">
+                    </div>
+                </div>
                 <img src="img/politica.jpg">
             </div>
             <div class="text-noticas">
                 <h3>[Editorial]¿Y la sensatez económica?</h3>
                 <p>LA VOZ DE SE: Las agendas politicas a nivel regioanl y palamentario comprometen la recuperacion economica.El gobiernodebe agotar todo esfuerzo para neutralizarlas</p>
-                <p class="foot" id="f3">Lectura de 3min</p>
+                <div class="pie">
+                    <p class="foot" id="f3">Lectura de 3min</p>
+                </div>
             </div>
         </div>
         <div class="noticias inmobiliario">
             <div class="cabecera">
                 <p>Desde <span> Sectores y empresas</span></p>
-                <button id="b4">Turismo</button>
-                <img class="imgb" src="img/imgboton.png">
-                <img src="img/turismo.jpg">
+                <div class="nav">
+                    <div class="bt">
+                        <button id="b4">Turismo</button>
+                    </div>
+                    <div class="im">
+                        <img class="imgb" id="img4" src="img/imgboton.png">
+                    </div>
+                </div>
+                <img id="im" src="img/turismo.jpg">
+                <div id="car" class="ocultar">
+                    <div class="carousel slide" id="miSlider" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#miSlider" data-slide-to="0" class="active"></li>
+                            <li data-target="#miSlider" data-slide-to="1"></li>
+                            <li data-target="#miSlider" data-slide-to="2"></li>
+                            <li data-target="#miSlider" data-slide-to="3"></li>
+                            <li data-target="#miSlider" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/alameda.jpg">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/ayacucho.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/cumbemayo.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/cusco.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/laguna.jpg">
+                            </div>
+                        </div>
+
+                        <a href="#miSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a href="#miSlider" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+
+                    </div>
+                </div>
+
             </div>
             <div class="text-noticas">
                 <h3>Reapertura de fronteras hoy inicia la reactivacion del circulo turistico regional</h3>
                 <p>El regreso de los vuelos internacionales desde el 5 de octubre, es el comienzo de la transicion de la reactivacion turistica internacional y regional</p>
-                <p class="foot" id="f1">Lectura de 5min</p>
+                <div class="pie">
+                    <p class="foot" id="f4">Lectura de 5min</p>
+                </div>
+
             </div>
         </div>
     </div>
 
 
     <script src="bustamanteEdwin.js"></script>
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/popper.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
