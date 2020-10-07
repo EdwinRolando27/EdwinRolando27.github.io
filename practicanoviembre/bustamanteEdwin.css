@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.contenedor {
+    border: 1px solid rgb(230, 92, 28);
+    border-color: rgb(230, 92, 28);
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cabecera img {
+    width: 300px;
+}
+
+.noticias {
+    max-width: 270px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.imgb {
+    width: 25px !important;
+}
