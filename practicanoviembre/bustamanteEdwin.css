@@ -27,7 +27,7 @@ nav a:hover {
 }
 
 .contenedor {
-    border: 1px solid rgb(230, 92, 28);
+    border-top: 1px solid rgb(230, 92, 28);
     margin: 30px;
     display: flex;
     flex-direction: row;
@@ -86,11 +86,6 @@ nav a:hover {
 .foot {
     position: relative;
     text-align: right;
-}
-
-.imgbu {
-    position: relative;
-    right: 0px;
 }
 
 .nav {
