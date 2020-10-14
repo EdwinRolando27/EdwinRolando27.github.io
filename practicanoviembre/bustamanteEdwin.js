@@ -2,6 +2,10 @@ window.onload = pageLoad;
 let cambio = 1;
 let c2 = 1;
 let c3 = 1;
+let l2 = 1;
+let l3 = 1;
+let l4 = 1;
+
 
 function pageLoad() {
     let lect = document.getElementById("img1");
@@ -12,21 +16,63 @@ function pageLoad() {
     let cultura = document.getElementById("b2");
 
     lect.onclick = lecturaClick;
-    lect2.onclick = lecturaClick;
-    lect3.onclick = lecturaClick;
-    lect4.onclick = lecturaClick;
+    lect2.onclick = lecturaClick2;
+    lect3.onclick = lecturaClic3;
+    lect4.onclick = lecturaClic4;
     turismo.onclick = turismoClick;
     cultura.onclick = cultuClick;
+}
+
+function lecturaClick2() {
+    if (l2) {
+        document.getElementById("f2").textContent = "Lectura completada";
+
+        l2 = 0
+    } else {
+        document.getElementById("f2").textContent = "Lectura 2minutos";
+
+        l2 = 1
+    }
+
+
+}
+
+function lecturaClic3() {
+    if (l3) {
+
+        document.getElementById("f3").textContent = "Lectura completada";
+        l3 = 0
+    } else {
+
+        document.getElementById("f3").textContent = "Lectura 3minutos";
+        l3 = 1
+    }
+
+
+}
+
+function lecturaClic4() {
+    if (l4) {
+        document.getElementById("f4").textContent = "Lectura completada";
+
+        l4 = 0
+    } else {
+        document.getElementById("f4").textContent = "Lectura 5minutos";
+
+        l4 = 1;
+    }
+
+
 }
 
 function lecturaClick() {
     if (cambio) {
         document.getElementById("f1").textContent = "Lectura completada";
-        document.getElementById("f3").textContent = "Lectura completada";
+
         cambio = 0
     } else {
         document.getElementById("f1").textContent = "Lectura 3minutos";
-        document.getElementById("f3").textContent = "Lectura 3minutos";
+
         cambio = 1
     }
 
