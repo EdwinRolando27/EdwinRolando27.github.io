@@ -1,9 +1,14 @@
 let cambio = 1;
+let cola = document.querySelectorAll('.fa');
+let colr = document.querySelectorAll('.fr');
+let i;
 window.onload = pageLoad;
+
 
 function pageLoad() {
     let colorear = document.getElementById("colorear");
     let extraer = document.getElementById("extraer");
+
     colorear.onclick = colorearClick;
     extraer.onclick = extraerClick;
 
@@ -12,26 +17,24 @@ function pageLoad() {
 function colorearClick() {
 
     if (cambio) {
-        document.getElementById("a1").className = "rojo";
-        document.getElementById("a2").className = "rojo";
-        document.getElementById("a3").className = "rojo";
-        document.getElementById("a4").className = "rojo";
-        document.getElementById("a5").className = "rojo";
 
-        document.getElementById("r1").className = "azul";
-        document.getElementById("r2").className = "azul";
-        document.getElementById("r3").className = "azul";
+
+        for (i = 0; i < cola.length; i++) {
+            cola[i].className = "rojo";
+        }
+        for (i = 0; i < colr.length; i++) {
+            colr[i].className = "azul";
+        }
+
         cambio = 0;
-    } else {
-        document.getElementById("a1").className = "azul";
-        document.getElementById("a2").className = "azul";
-        document.getElementById("a3").className = "azul";
-        document.getElementById("a4").className = "azul";
-        document.getElementById("a5").className = "azul";
 
-        document.getElementById("r1").className = "rojo";
-        document.getElementById("r2").className = "rojo";
-        document.getElementById("r3").className = "rojo";
+    } else {
+        for (i = 0; i < cola.length; i++) {
+            cola[i].className = "azul";
+        }
+        for (i = 0; i < colr.length; i++) {
+            colr[i].className = "rojo";
+        }
         cambio = 1;
     }
 }
